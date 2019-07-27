@@ -5,12 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <Compile Remove="Views\images\**" />
+    <Content Remove="Views\images\**" />
+    <EmbeddedResource Remove="Views\images\**" />
+    <None Remove="Views\images\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\images\" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>

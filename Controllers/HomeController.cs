@@ -12,6 +12,7 @@ namespace Dimension_Collapse.Controllers
     {
         public IActionResult Index()
         {
+            
             return View();
         }
 
