@@ -1,0 +1,224 @@
+﻿{
+    ViewData["Title"] = "Game";
+}
+
+    <style type="text/css">
+        .chessboard {
+            border: 1vh solid #333;
+        }
+
+        .center {
+            margin: auto;
+        }
+    </style>
+
+    <div style="height: 31vh; margin: 0 0 0 0;">
+        <div id="imageContainer" style="background: white; height: 100%; width: 30vw; float: left;">
+            <!--Hier kommt dann das Bild rein-->
+        </div>
+        <div style="height: 100%; width: 70vw; margin: 0 0 0 0; background: green; float: left;">
+            <!--Hier kommen die Einheiten Infos rein-->
+        </div>
+    </div>
+    <table class="center chessboard" style="width:100vw; height: 62.5vh;">
+        <tr style="width: 100%; height: 6vh;">
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+        </tr>
+        <tr style="width: 100%; height: 6vh;">
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+        </tr>
+        <tr style="width: 100%; height: 6vh;">
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+        </tr>
+        <tr style="width: 100%; height: 6vh;">
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+        </tr>
+        <tr style="width: 100%; height: 6vh;">
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+        </tr>
+        <tr style="width: 100%; height: 6vh;">
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+        </tr>
+        <tr style="width: 100%; height: 6vh;">
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+        </tr>
+        <tr style="width: 100%; height: 6vh;">
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+        </tr>
+        <tr style="width: 100%; height: 6vh;">
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+        </tr>
+        <tr style="width: 100%; height: 6vh;">
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+        </tr>
+    </table>
