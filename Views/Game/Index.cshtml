@@ -3,12 +3,20 @@
 }
 
     <style type="text/css">
-        .chessboard {
+        .chessboard 
+        {
             border: 1vh solid #333;
         }
 
-        .center {
+        .center 
+        {
             margin: auto;
+        }
+
+        .tile
+        {
+            height: 50px; 
+            width: 50px; 
         }
     </style>
 
@@ -20,205 +28,265 @@
             <!--Hier kommen die Einheiten Infos rein-->
         </div>
     </div>
-    <table class="center chessboard" style="width:100vw; height: 62.5vh;">
+    <table class="center chessboard" style="margin: auto;">
         <tr style="width: 100%; height: 6vh;">
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
         </tr>
         <tr style="width: 100%; height: 6vh;">
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
         </tr>
         <tr style="width: 100%; height: 6vh;">
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
         </tr>
         <tr style="width: 100%; height: 6vh;">
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
         </tr>
         <tr style="width: 100%; height: 6vh;">
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
         </tr>
         <tr style="width: 100%; height: 6vh;">
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
         </tr>
         <tr style="width: 100%; height: 6vh;">
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
         </tr>
         <tr style="width: 100%; height: 6vh;">
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
         </tr>
         <tr style="width: 100%; height: 6vh;">
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
         </tr>
         <tr style="width: 100%; height: 6vh;">
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
-            <th style="height: 6vh; width: 5vw; background: #ffffffb3;"></th>
-            <th style="height: 6vh; width: 5vw; background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
+            <th class="tile" style="background: #ffffffb3;"></th>
+            <th class="tile" style="background: #6F6F6FBD;"></th>
         </tr>
     </table>
